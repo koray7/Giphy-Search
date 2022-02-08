@@ -1,0 +1,39 @@
+.HeaderText {
+  text-align: center;
+  margin-top: 10%;
+}
+.input {
+  margin-top: 5vw;
+  padding: 4vw;
+  box-sizing: border-box;
+  size: 50px;
+  text-align: center;
+}
+.HeaderText {
+  background-color: rgb(234, 236, 239);
+  padding: 10px;
+}
+.button {
+  text-align: center;
+  /* background-color: rgb(7, 123, 255); */
+}
+#giphySearch {
+  display: flex;
+  margin: 3vw;
+  color: rgb(44, 44, 44);
+}
+#firstText {
+  background-color: rgb(52, 58, 64);
+}
+p {
+  margin-top: 3.5vw;
+  margin-left: 3vw;
+}
+.resultsDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 3vw;
+  margin: 2vw;
+  box-sizing: border-box;
+}
