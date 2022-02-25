@@ -1,6 +1,13 @@
+body {
+  background: url("https://i.gifer.com/80qW.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
 .HeaderText {
   text-align: center;
   margin-top: 10%;
+  padding: 2vw;
+  background-color: rgb(207, 225, 252, 0.7);
 }
 .input {
   margin-top: 5vw;
@@ -9,13 +16,8 @@
   size: 50px;
   text-align: center;
 }
-.HeaderText {
-  background-color: rgb(234, 236, 239);
-  padding: 10px;
-}
 .button {
   text-align: center;
-  /* background-color: rgb(7, 123, 255); */
 }
 #giphySearch {
   display: flex;
@@ -30,10 +32,73 @@ p {
   margin-left: 3vw;
 }
 .resultsDiv {
+  position: relative;
   text-align: center;
   display: flex;
   flex-direction: row;
   padding: 3vw;
   margin: 2vw;
   box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.mainPage {
+  text-align: center;
+  /* background: url("https://i.gifer.com/9w71.gif");
+  background-size: cover;
+  height: 100%; */
+}
+.showGiphy {
+  position: relative;
+  flex-direction: row;
+  padding: 2vw;
+}
+.giphyName {
+  padding: 0.5vw;
+  text-shadow: 0 0 10px #0278ff;
+  color: aliceblue;
+}
+.giphySite {
+  text-decoration: none;
+  border-radius: 4vw;
+  padding: 0.2vw;
+}
+.giphyImg {
+  height: 30vw;
+  width: 30vw;
+  padding: 1.4vw;
+  border-radius: 4vw;
+}
+.giphySearch {
+  margin-left: 3vw;
+  text-shadow: 2px 2px 4px #397196;
+  color: whitesmoke;
+}
+.homeText {
+  background-image: linear-gradient(
+    to right,
+    violet,
+    green,
+    orange,
+    red,
+    blue,
+    indigo,
+    yellow
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 2vw;
+}
+.MainInput {
+  font-size: 2vw;
+  border-radius: 6vw;
+  text-shadow: 2px 2px 4px #c4e7fd;
+}
+.searchBar {
+  font-size: 2vw;
+  border-radius: 6vw;
+  text-shadow: 2px 2px 4px #54afe7;
+  cursor: pointer;
 }
